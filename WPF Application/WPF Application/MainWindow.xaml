@@ -1,0 +1,53 @@
+﻿<Window x:Class="WPF_Application.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Application"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Name="Tlacitko" Grid.Column="0" Grid.Row="1" Margin="5" FontSize="24" Click="Kliknuti1">%</Button>
+        <Button Name="Tlacitko1" Grid.Column="1" Grid.Row="1" Margin="5" FontSize="24" Click="Kliknuti2">CE</Button>
+        <Button Name="Tlacitko2" Grid.Column="2" Grid.Row="1" Margin="5" FontSize="24" Click="Kliknuti3">C</Button>
+        <Button Name="Tlacitko3" Grid.Column="3" Grid.Row="1" Margin="5" FontSize="24" Click="Kliknuti4">¨</Button>
+        <Button Name="Tlacitko4" Grid.Column="0" Grid.Row="2" Margin="5" FontSize="24" Click="Kliknuti5">1/x</Button>
+        <Button Name="Tlacitko5" Grid.Column="1" Grid.Row="2" Margin="5" FontSize="24" Click="Kliknuti6">x2</Button>
+        <Button Name="Tlacitko6" Grid.Column="2" Grid.Row="2" Margin="5" FontSize="24" Click="Kliknuti7">√x</Button>
+        <Button Name="Tlacitko7" Grid.Column="3" Grid.Row="2" Margin="5" FontSize="24" Click="Kliknuti8">÷</Button>
+        <Button Name="Tlacitko8" Grid.Column="0" Grid.Row="3" Margin="5" FontSize="24" Click="Kliknuti9">7</Button>
+        <Button Name="Tlacitko9" Grid.Column="1" Grid.Row="3" Margin="5" FontSize="24" Click="Kliknuti10">8</Button>
+        <Button Name="Tlacitko10" Grid.Column="2" Grid.Row="3" Margin="5" FontSize="24" Click="Kliknuti11">9</Button>
+        <Button Name="Tlacitko11" Grid.Column="3" Grid.Row="3" Margin="5" FontSize="24" Click="Kliknuti12">X</Button>
+        <Button Name="Tlacitko12" Grid.Column="0" Grid.Row="4" Margin="5" FontSize="24" Click="Kliknuti13">4</Button>
+        <Button Name="Tlacitko13" Grid.Column="1" Grid.Row="4" Margin="5" FontSize="24" Click="Kliknuti14">5</Button>
+        <Button Name="Tlacitko14" Grid.Column="2" Grid.Row="4" Margin="5" FontSize="24" Click="Kliknuti15">6</Button>
+        <Button Name="Tlacitko15" Grid.Column="3" Grid.Row="4" Margin="5" FontSize="24" Click="Kliknuti16">-</Button>
+        <Button Name="Tlacitko16" Grid.Column="0" Grid.Row="5" Margin="5" FontSize="24" Click="Kliknuti17">1</Button>
+        <Button Name="Tlacitko17" Grid.Column="1" Grid.Row="5" Margin="5" FontSize="24" Click="Kliknuti18">2</Button>
+        <Button Name="Tlacitko18" Grid.Column="2" Grid.Row="5" Margin="5" FontSize="24" Click="Kliknuti19">3</Button>
+        <Button Name="Tlacitko19" Grid.Column="3" Grid.Row="5" Margin="5" FontSize="24" Click="Kliknuti20">+</Button>
+        <Button Name="Tlacitko20" Grid.Column="0" Grid.Row="6" Margin="5" FontSize="24" Click="Kliknuti21">+/-</Button>
+        <Button Name="Tlacitko21" Grid.Column="1" Grid.Row="6" Margin="5" FontSize="24" Click="Kliknuti22">0</Button>
+        <Button Name="Tlacitko22" Grid.Column="2" Grid.Row="6" Margin="5" FontSize="24" Click="Kliknuti23">,</Button>
+        <Button Name="Tlacitko23" Grid.Column="3" Grid.Row="6" Margin="5" FontSize="24" Click="Kliknuti24">=</Button>
+        <Label Name="Popisek" Grid.Column="3" Grid.Row="0" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"></Label>
+
+
+    </Grid>
+</Window>
