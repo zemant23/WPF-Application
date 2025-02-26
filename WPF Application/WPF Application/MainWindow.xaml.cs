@@ -24,13 +24,13 @@ namespace WPF_Application
             InitializeComponent();
         }
 
-        private void Kliknuti1(object sender, RoutedEventArgs e)
+        private void Kliknuti2(object sender, RoutedEventArgs e)
         {
             pocitadlo += 1;
             Popisek.Content = pocitadlo.ToString();
 
         }
-        private void Kliknuti2(object sender, RoutedEventArgs e)
+        private void Kliknuti1(object sender, RoutedEventArgs e)
         {
             string k1 = "%";
             Popisek.Content = pocitadlo.ToString();
